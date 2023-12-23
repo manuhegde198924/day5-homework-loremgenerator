@@ -1,0 +1,22 @@
+.meaningful-generator {
+  margin-top: 20px;
+  background: pink;
+}
+
+.meaningful-generator p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.meaningful-generator p {
+  animation: fadeIn 1s ease-in-out;
+}
